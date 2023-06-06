@@ -176,5 +176,27 @@ main {
 	font-weight: 700;
 }
 
+.continue-button:active {
+	background: linear-gradient(hsla(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+
+@media screen and (max-width: 37.5rem) {
+
+	main {
+		flex-wrap: wrap;
+	}
+
+	.result-box {
+		width: 100%;
+		border-radius: 0 0 2.1875rem 2.1875rem;
+		padding: 2rem 4rem;
+		gap: 2rem;
+	}
+
+	.summary-box {
+		width: 100%;
+	}
+}
 
 
